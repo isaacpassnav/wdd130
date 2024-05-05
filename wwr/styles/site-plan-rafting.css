@@ -9,10 +9,10 @@ body{
     padding: 20px;
 }
 :root{
-    --primary-color: 14213D;
-    --secondary-color: FCA311;
-    --accent1-color: E5E5E5;
-    --accent2-color: FFFFFF;
+    --primary-color: #14213D;
+    --secondary-color: #FCA311;
+    --accent1-color: #E5E5E5;
+    --accent2-color: #FFFFFF;
 
     --heading-font:"Abril Fatface", serif;
     --paragraph-font:"Alegreya Sans", serif;
