@@ -17,10 +17,10 @@ body{
     --heading-font:"Abril Fatface", serif;
     --paragraph-font:"Alegreya Sans", serif;
 
-    --nav-background-color: 000000;
-    --nav-link-color: 588157 ;
-    --nav-hover-link-color:344E41 ;
-    --nav-hover-background-color: PAPÁ7CD;
+    --nav-background-color: #000000;
+    --nav-link-color: #588157 ;
+    --nav-hover-link-color:#344E41 ;
+    --nav-hover-background-color: #ccd5ae;
 
 }
 h1,h2,h3,h4,h5,h6 {
