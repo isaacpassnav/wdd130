@@ -1,4 +1,3 @@
-
 /*Fuente de encabezado*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 /*Fuente de texto normal*/
@@ -6,7 +5,7 @@
 
 body{
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    /* max-width: 960px; */
     padding: 20px;
 }
 :root{
@@ -30,13 +29,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 header{
     padding: 20px;
-    background-color: var(--accent1-color);
+    /* background-color: var(--accent1-color); */
 }
 p{
     padding: 25px;
 }
 nav{
-    background-color: var(--nav-background-color);
+    /* background-color: var(--nav-background-color); */
     font-size: 1.2rem;
     display: flex;
 }
@@ -49,7 +48,50 @@ nav a{
 nav a:link, nav a:visited{
     color: var(--nav-link-color);
 }
-
 nav a:hover{
     color: var(--nav-hover-link-color);
+}
+.hero {
+    position: relative;
+    width: 95%;
+    height: auto;
+}
+.hero img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+}
+.hero h1 {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    text-align: center; 
+}
+.hero article {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF; 
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.hero article p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    top: 50%;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+.hero article img {
+    max-width: 40%; 
+    height: auto;
+    margin-right: 50px;
 }
