@@ -65,7 +65,7 @@ main img{
 p{
     padding: 0;
 }
-footer, .grid header{
+header, footer, .grid {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -88,13 +88,11 @@ nav a {
     display: grid;
     align-items: center;
     flex-direction: column;
-    padding: 25px;
-    
+    padding: 25px;  
 }
 .footer{
     display: flex;
     align-items: center;
-    /* margin-left: 400px; */
     justify-content: space-around;
 }
 
