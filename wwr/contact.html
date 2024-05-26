@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Contact us today to learn more about our exciting rafting experiences.">
+    <meta name="author" content="Isaac Pasapera">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/rafting-logo" alt="Rafting Site Logo">
+        <nav>
+            <a href="./site-plan-rafting.html">Inicio</a>
+            <a href="#">About Us</a>
+            <a href="#">Trips</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="h1-contact">Contact Form</h1>
+        <p class="parrafo">
+            "There's nothing we like more than rolling up our sleeves and starting a brand new project. Let's make
+            something great together"
+        </p>
+        <div class="principal-container">
+            <div class="container-form">
+                <form action="index.html" class="quiz" method="post">
+                    <!-- User's Name -->
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <!-- User's Email -->
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <!-- Purpose of Message -->
+                    <div>
+                        <label for="purpose">Purpose of Message:</label>
+                        <p>
+                            <input type="radio" id="general-query" name="purpose" value="general-query">
+                            <label for="general-query">General Query</label><br>
+                            <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
+                            <label for="reservation-question">Reservation Question</label><br>
+                            <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+                            <label for="website-suggestion">Website Suggestion</label>
+                        </p>
+                    </div>
+
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="newsletter-subscription" name="newsletter-subscription"
+                            value="subscribe">
+                        <label for="newsletter-subscription">Subscribe to our monthly newsletter</label>
+                    </div>
+
+                    <div class="button-submit">
+                        <button type="submit" class="submit">Send Form</button>
+                    </div>
+            </div>
+            </form>
+
+            <section class="contact-info">
+                <h2 class="h2-contact">Contact Information</h2>
+                <address>
+                    <strong>Dirección:</strong> Calle de Ejemplo 123, Ciudad Ejemplo<br>
+                    <strong>Teléfono:</strong> +1234567890<br>
+                    <strong>Email:</strong> info@raftingadventure.com
+                </address>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m181m121m31d3151.83543481416562d144.953736315314923d-37.8172099797517552m31f02f03f03m21i10242i7684f13.13m31m21s0x6ad642af0f11fd81%3A0x5045675218ce6e32sMelbourne%20VIC%2C%20Australia5e03m21sen2sus4v16344944000005m21sen2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+
+</body>
+</main>
+<footer>
+    <p>&copy; 2024 | Isaac's Rafting | Isaac Pasapera </p>
+    <nav class="nav-social-media">
+        <div class="conteiner-social-media">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" width="30px" alt="facebook">
+            </a>
+            <a href="https://twitter.com/i/flow/login">
+                <img src="images/twitter.png" width="30px" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" width="30px" alt="instagram">
+            </a>
+        </div>
+    </nav>
+</footer>
+
+</body>
+
+</html>
