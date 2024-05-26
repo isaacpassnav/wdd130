@@ -136,7 +136,9 @@ nav a:hover{
 }
 .adventure {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    overflow-y: auto;
+    position: relative;
 }
 .adventure img {
     width: 240px;
@@ -240,5 +242,23 @@ footer p{
 }
 section address {
     padding: 10px;
+}
+/* Adventure section */
+.h1-adventure{
+    display: flex;
+    justify-content: center;
+}
+.tooltip img {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 170px;
+}
+.tooltip{
+    display: flex;
+    border: red solid;
+}
+.tooltip-span{
+    padding-top: 27px;
 }
 
