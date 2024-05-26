@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(3, 3, 248); /* Ajustado el grosor del borde */
+    padding: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #dbb9b9;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.label1 {
+    /* color: black; */
+    display: block;
+}
+#q1, #q2, #q3, #q4 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+.submit {
+    padding: 10px 20px; 
+    background-color: rgb(3, 3, 248); 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+.button-submit {
+    padding-left: 170px;
+}
+.submit:hover {
+    background-color: rgb(49, 49, 87);
+}

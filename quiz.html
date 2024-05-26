@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz about HTML and CSS</title>
+    <link rel="stylesheet" href="./wwr/styles/quiz.css">
+    <meta name="Quiz">
+    <meta name="author" content="Isaac Pasapera">
+</head>
+
+<body>
+    <h1 class="h1">Quiz about HTML and CSS</h1>
+    <div class="container-form">
+        <form action="index.html" class="quiz" method="post">
+            <!-- Pregunta 1: Texto de entrada -->
+            <div>
+                <label for="q1" class="label1"><span>1.</span> What is the HTML element for inserting a title?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+
+            <!-- Pregunta 2: Textarea para respuesta corta -->
+            <div>
+                <label for="q2" class="label1"><span>2.</span> How is the color blue defined in CSS?</label>
+                <textarea id="q2" name="q2"></textarea>
+            </div>
+
+            <!-- Pregunta 3: Menú desplegable -->
+            <div>
+                <label for="q3" class="label1"><span>3.</span> Which of the following is not a valid CSS property?</label>
+                <select id="q3" name="q3">
+                    <option value="">Select an option: </option>
+                    <option value="color">Color</option>
+                    <option value="fondo">Background</option>
+                    <option value="dimension">Padding</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+
+            <!-- Pregunta 4: Entrada numérica -->
+            <div>
+                <label for="q4" class="label1"><span>4.</span> How many primary colors are there in the RGB color model?</label>
+                <input type="number" id="q4" name="q4">
+            </div>
+
+            <!-- Botón de envío -->
+            <div class="button-submit">
+            <button type="submit" class="submit">Submit Quiz</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
