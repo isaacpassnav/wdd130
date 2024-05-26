@@ -222,6 +222,7 @@ footer p{
     background-color: rgb(49, 49, 87);
 }
 .principal-container {
+    border: green solid;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
