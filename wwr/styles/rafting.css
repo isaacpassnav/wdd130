@@ -7,6 +7,7 @@ body{
     font-family: var(--paragraph-font);
     /* max-width: 960px; */
     padding: 20px;
+    line-height: 1.6;
 }
 :root{
     --primary-color: #14213D;
@@ -106,28 +107,39 @@ nav a:hover{
 .img-history {
     width: 230px;
     padding: 50px;
+    margin-top: 20px;
 }
 .history-container {
-    border: blue solid;
+    padding: 40px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    border-radius: 5px;
 }
 .history-section {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
+    text-align: justify;
 }
 .h2-history {
     position: absolute;
     left: 570px;
     font-size: 2rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
+    
 }
 .container-adventure{
-    border: blue solid;
+    border-radius: 5px;
+    text-align: center;
+}
+.container-adventure p {
+    margin: 40px;
+}
+hr {
+    margin:  60px;
 }
 .h2-adventure {
     position: relative;
@@ -155,6 +167,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    margin-top: 80px;
 }
 .nav-social-media img {
     width: 30px; 
@@ -164,7 +177,7 @@ footer {
 }
 .conteiner-social-media {
     display: flex;
-    padding-right: 50px;
+    padding-right: 60px;
 }
 footer p{
     display: flex;
@@ -201,10 +214,14 @@ footer p{
 .h1-contact {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 .parrafo{
     display: flex;
     justify-content: center;
+    width: 760px;
+    padding-left: 300px;
+    text-align: center;
 }
 .submit {
     padding: 10px 20px; 
@@ -213,6 +230,7 @@ footer p{
     border: none; 
     cursor: pointer; 
     border-radius: 4px; 
+    text-decoration: none;
 }
 .button-submit {
     padding: 30px;
@@ -222,7 +240,6 @@ footer p{
     background-color: rgb(49, 49, 87);
 }
 .principal-container {
-    border: green solid;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -257,9 +274,104 @@ section address {
 }
 .tooltip{
     display: flex;
-    border: red solid;
 }
 .tooltip-span{
     padding-top: 27px;
 }
+    /* Trips */
+.tooltip-trips{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.tooltip-trips img{
+    padding: 30px;
+    display: flex;
+    height: 170px;
+    padding-left: 90px;
+}
+.tooltip-trips > * {
+    order: 1; 
+}
+.trip-summary-table {
+    display: inline-table;
+    padding-left: 70px;
+}
+table {
+    border-collapse: collapse;
+    border: 10px solid rgb( 140 140 140);
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
 
+}
+caption {
+    caption-side: bottom;
+    padding: 14px;
+    font-weight: bold;
+}
+thead, tfoot {
+    background-color: rgb(228, 240  , 245);
+}
+th, td {
+    border: 1px solid rgb(160, 160, 160);
+    text-align: center;
+}
+tbody > tr:nth-of-type(even){
+    background-color: rgb(237, 238, 242);
+}
+tfoot, th{
+    text-align: right;
+}
+.summary-trip-h1 {
+    padding: 40px;
+}
+.wireframe {
+    display: flex;
+    justify-content: flex-start;
+}
+/* Index */
+.index-sectio1 {
+    background-image: url("../images/happy-client.png");
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    height: 66vh;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.header-index h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.index-p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.section-explore {
+    padding: 30px;
+}
+.trip-1,.trip-2,.trip-3 {
+    border: 1px solid var(--accent1-color);
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.tooltip-span ul {
+    padding: 0;
+    list-style-type: none; 
+}
+.tooltip-span ul li::before {
+    content: '• '; 
+    color: var(--primary-color);
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.tooltip-span h3 {
+    margin-top: 0; 
+    color: var(--primary-color);
+}
