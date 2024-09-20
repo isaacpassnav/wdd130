@@ -29,9 +29,6 @@ main{
     grid-column: 2;
     margin: 1rem;
 }
-/* .encabezaado {
-    margin: 50px;
-} */
 aside{
     width: 20rem;
     position: relative;
@@ -42,8 +39,7 @@ aside{
     padding: 1rem;
     background: #eee;
     color: #333;
-    text-align: center;
-    
+    text-align: center;  
 }
 aside h2 {
     position: absolute;

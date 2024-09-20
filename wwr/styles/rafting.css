@@ -1,7 +1,7 @@
-/*Fuente de encabezado*/
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-/*Fuente de texto normal*/
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans&display=swap');
+    /*Fuente de encabezado*/
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    /*Fuente de texto normal*/
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans&display=swap');
 
 body{
     font-family: var(--paragraph-font);
@@ -24,10 +24,10 @@ body{
     --nav-hover-background-color: #ccd5ae;
 
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
+    h1,h2,h3,h4,h5,h6 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+    }
 header{
     padding: 20px;
     display: grid;
